@@ -1,0 +1,82 @@
+.dashboard-background {
+    background-color: #FFEB3B; /* Vibrant comic yellow */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form container styling */
+  .login-form-container {
+    background-color: #FFF176;
+    border: 4px solid #333;
+    border-radius: 12px;
+    box-shadow: 8px 8px 0 #333;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  /* Hero image styling */
+  .hero-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 0 #333;
+  }
+  
+  /* Header styling */
+  .login-form-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Comic-style form styling */
+  .comic-login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .comic-login-form label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .comic-login-form input[type="text"],
+  .comic-login-form input[type="password"] {
+    padding: 10px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 4px 4px 0 #333;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  
+  .comic-login-form input[type="text"]:focus,
+  .comic-login-form input[type="password"]:focus {
+    box-shadow: 6px 6px 0 #333;
+    transform: translate(-2px, -2px);
+  }
+  
+  .comic-login-form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF5722; /* Comic-style button color */
+    border: 3px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #333;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .comic-login-form button:hover {
+    background-color: #E64A19;
+    box-shadow: 6px 6px 0 #333;
+  }
